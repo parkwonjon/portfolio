@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    color: #333;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/***************/
+.mainbanner {
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    background: url(img/ban.jpg) no-repeat top center/ cover;
+    position: relative;
+}
+
+.mainbanner h2 {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 0 #666, 0 1px #666;
+    opacity: 0;    
+}
+
+
+.info-inner {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.info-inner .top{
+    width: 100%;
+    height: 664px;
+}
+.info-inner .shop-img {
+    float: left;
+    width: 44%;
+    height: 664px;
+    text-align: center;
+    margin-right: 5%;
+    border: 1px solid #eee;
+}
+
+.shop-img img {
+    height: 664px;
+    display: block;
+    margin: 0 auto;
+}
+
+.info-inner .info {
+    float: right;
+    width: 50%;    
+}
+
+.info-inner .info h3 {
+    font-size: 32px;
+}
+
+.info-inner .info-img{
+    margin-top: 150px;
+}
+.info-img img{
+    width: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.info-img img:hover{
+    border: 1px solid #efa54d;
+    opacity: 0.9;
+}
+.info h3:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: orange;
+    margin: 10px 0;
+    border-radius: 3px 3px 0 0;
+}
+
+.info-inner .info p {
+    margin-bottom: 25px;
+    line-height: 1.5;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.info-inner .info .bold {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.title,
+.txt {
+    width: 60%;
+}
+
+.graph table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 100px auto 120px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #c2c2c2;
+}
+
+.graph table tr {
+    height: 50px;
+}
+
+.graph table tr:first-child .title {
+    border-bottom: 1px solid #c2c2c2;
+    background-color: #ffefd6;
+}
+
+.graph table tr .txt {
+    border: 0;
+    line-height: 1.8;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.graph table tr td {
+    border: 1px solid #c2c2c2;
+    height: 30px;
+}
+
+.stxt td {
+    background-color: orange;
+    position: relative;
+    background-color: #ffefd6;
+}
+
+.txt td:last-child {
+    background-color: #fff;
+    border: 0;
+}
+
+.sweet:before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 100px;
+    background-color: #dc9a38;
+    position: absolute;
+    top: -101px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sourness:before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 100px;
+    background-color: #dc9a38;
+    position: absolute;
+    top: -101px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.flavor:before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 200px;
+    background-color: #dc9a38;
+    position: absolute;
+    top: -201px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.back {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    border: 1px solid #dc9a38;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #dc9a38;
+    font-size: 18px;
+}
+.back:hover{
+    background-color: #dc9a38;
+    color: #fff;
+}
+
+footer {
+    margin-top: 150px;
+}

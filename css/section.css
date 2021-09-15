@@ -1,0 +1,691 @@
+main {
+    width: 100%;
+    height: 630px;
+    overflow: hidden;
+}
+
+main .inner-wrap {
+    width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+main .inner-wrap .slide {
+    width: 300%;
+    position: relative;
+    left: 0;
+}
+
+main .inner-wrap .slide li {
+    float: left;
+    position: relative;
+    width: 33.33%;
+}
+
+main .inner-wrap .slide li img {
+    width: 100%;
+}
+
+main .inner-wrap .slide li h3 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+
+main .inner-wrap .slidebtn .abtn {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+main .inner-wrap .slidebtn .abtn img {
+    display: inline-block;
+}
+
+.slidebtn .mainL {
+    left: 20%;
+}
+
+.slidebtn .mainR {
+    right: 20%;
+}
+
+main .inner-wrap .slidebtn .mainR {
+    right: 20%;
+}
+
+main .inner-wrap .bul {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bul li {
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.bul li a {
+    width: 100px;
+    height: 5px;
+    background-color: #fff;
+    font-size: 0;
+    display: block;
+}
+
+.bul li.selb a {
+    background-color: #eeb443;
+    ;
+}
+
+main .inner-wrap .btng {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 60px;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+main .inner-wrap .btng .btn {
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 50%;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    transition: all 0.5s;
+}
+
+.move {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    border-radius: 60px;
+    background-color: #fff;
+    transition: all .5s;
+    z-index: 1;
+}
+
+main .inner-wrap .btng .btn:hover {
+    color: #666;
+}
+
+.btng:hover .move {
+    left: 0;
+}
+
+
+
+/******우리술 역사////*****/
+
+.history {
+    width: 100%;
+    max-width: 1920px;
+    height: 630px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.history .imgb {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+}
+
+.history .imgb img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+}
+
+.history .inner-wrap {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 120px 0 0;
+}
+
+.history h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.history p {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+
+.history .inner-wrap .btng {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 60px;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 0;
+    bottom: 35%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.history .inner-wrap .btng .btn {
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 50%;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    transition: all 0.5s;
+}
+
+.move {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    border-radius: 60px;
+    background-color: #fff;
+    transition: all .5s;
+    z-index: 1;
+}
+
+.history .inner-wrap .btng .btn:hover {
+    color: #666;
+}
+
+.btng:hover .move {
+    left: 0;
+}
+
+
+
+/****우리술 상품*************/
+.shop {
+    padding: 100px 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.sbg-1 {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    right: 15%;
+    top: 0;
+}
+
+.sbg-1 img {
+    display: block;
+}
+
+.sbg-2 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 15%;
+    bottom: 0;
+}
+
+.sbg-2 img {
+    display: block;
+}
+
+.shop h2 {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.shop .inner-wrap {
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.shop .abtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.shop .btnL {
+    position: absolute;
+    left: 0;
+}
+
+.shop .btnR {
+    position: absolute;
+    right: 0;
+}
+
+.shop .inner-wrap .shop-slide {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.shop .shop-slide ul {
+    width: 6760px;
+    position: relative;
+    left: -240px;
+}
+
+.shop .shop-slide > ul > li {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    float: left;
+    border: 2px solid #eee;
+    box-sizing: border-box;
+    border-radius: 50px;
+    /*transition: all 1s ease-in-out;*/
+    background-color: #fff;
+}
+/*왼쪽2*/
+.i1 {
+    transform: scale(0.7);
+    opacity: 0.5;
+}
+
+/*왼쪽1*/
+.i2 {
+    transform: scale(0.9);
+}
+
+/*중앙이미지*/
+.i3 {
+    top: 0;
+    left: 0;
+    transform: scale(1);
+}
+
+/*오른쪽1*/
+.i4 {
+    transform: scale(0.9);
+}
+
+/*오른쪽2*/
+.i5 {
+   
+    transform: scale(0.7);
+    opacity: 0.5;
+}
+.shop .shop-slide > ul > li ~ li {
+    margin-left: 40px;
+}
+
+.shop .shop-slide > ul > li > a {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.shop .shop-slide > ul > li > a > img {
+    height: 296px;
+    display: block;
+    border-radius: 50px;    
+    text-align: center;
+    margin: 0 auto;
+}
+
+.shop .shop-slide .box {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    opacity: 0;
+    transition: all 0.5s;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.shop .shop-slide > ul > li:hover .box {
+    opacity: 1;
+}
+
+.shop .box .in-line {
+    border: 1px solid #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.shop .box h4 {
+    font-size: 28px;
+    margin-top: 70px;
+    font-weight: 500;
+}
+
+.shop .box p {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 1.4;
+    font-weight: 100;
+}
+
+
+
+
+
+/********녹색기업********************/
+.green {
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 120px;
+    background: url(../img/greenbg.png) no-repeat bottom center;
+}
+
+.green .inner-wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.green .tbox {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.green .tbox h2 {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.green .tbox p {
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.green .tbox > img {
+    width: 80%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.green .tbox a {
+    display: block;
+    color: #333;
+    margin-top: 40px;
+    line-height: 50px;
+}
+
+.green .imgb {
+    float: right;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 30px 0 30px 0;
+}
+
+.green .imgb>div {
+    width: 100%;
+    height: 100%;
+    background: url(../img/green.jpg) no-repeat;
+    display: block;
+    transform: scale(1);
+    transition: all .5s;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+
+@keyframes move {
+    0% {
+        transform: scale(1);
+        background-size: 90% cover;
+    }
+    100% {
+        transform: scale(1.1);
+        background-size: 95% cover;
+        opacity: 0.9;
+    }
+}
+
+/*************보조자료**********/
+
+.news {
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+    background-color: #fff;
+    background: url(../img/newsbg1.jpg) no-repeat bottom center/100% 50%;
+    padding: 0 0 60px;
+}
+
+.news .inner-wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.news .inner-wrap h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.news .newscon li {
+    float: left;
+    box-shadow: 2px 2px 6px #ccc;
+}
+
+.newscon li ~ li {
+    margin-left: 26.66px;
+}
+
+.news .newscon li .imgb {
+    overflow: hidden;
+}
+
+.news .newscon li .imgb img {
+    display: block;
+    transition: all 0.6s;
+}
+
+.news .newscon li:hover .imgb img {
+    transform: scale(1.1);
+}
+
+.newscon li .txtb {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+.newscon li .txtb a {
+    color: #333;
+}
+
+.newscon li .txtb a:hover {
+    text-decoration: underline;
+}
+
+.newscon li .txtb .date {
+    margin-top: 10px;
+}
+
+.newscon li .txtb a .title-line {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.newscon li .txtb a .title-line h4 {
+    position: relative;
+    z-index: 5;
+}
+
+.newscon li .txtb a .title-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #eeb443;
+    position: absolute;
+    top: 10px;
+    left: -100%;
+    transition: all .6s;
+    z-index: 1;
+}
+
+.newscon li:hover .txtb a .title-bar {
+    left: 0;
+}
+
+.newscon li .txtb a p {
+    line-height: 1.3;
+    margin-top: 20px;
+}
+
+.newscon li .txtb p span {
+    color: #666;
+}
+
+.news-more {
+    width: 220px;
+    display: block;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+/*******인스타그램************/
+.sns {
+
+    margin-top: 150px;
+    background-color: rgba(90, 60, 0, 0.2);
+}
+
+.sns .inner-sns {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.content {
+    margin-bottom: 30px;
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.sns h2 {
+
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.sns h2 span {
+    color: #ffb141;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.sns .sub-title {
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 100;
+}
+
+.sns .snsg {
+    width: 70%;
+    float: left;
+}
+
+.sns ul .snsbox {
+    width: 236px;
+    height: 236px;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+}
+
+.snsbox a .box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    border: 10px solid orange;
+    opacity: 0;
+    transition: all .3s;
+    transform: rotate(-30deg);
+    border-radius: 30px;
+}
+
+.snsbox a .box img {
+    width: 20%;
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    transition: all 0.5;
+    transform: translate(-50%, -50%);
+}
+
+.snsbox:hover .box {
+    opacity: 1;
+    transform: rotate(00deg);
+}
+
+.sns .more {
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 40px;
+}

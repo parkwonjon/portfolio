@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>고객센터</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="advice.css">
+
+    <script src="../jquery-1.12.4.min.js"></script>
+    <script src="../jquery-ui.min.js"></script>
+    <script src="../subbanner.js"></script>
+    <script src="../../js/index.js"></script>
+
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <h1 id="logo"><a href="../../index.html"><img src="../logos.png" alt="국순당 로고"></a></h1>
+
+             <nav>
+                <ul class="gnb clear">
+                    <li><a href="../01company/company.html">회사소개</a>
+                        <ul class="sub">
+                            <li><a href="../01company/company.html">국순당개요</a></li>
+                            <li><a href="../02green/green.html">녹색기업</a></li>
+                            <li><a href="../03juhyang/juhyangro.html">주향로</a></li>
+                            <li><a href="../04backsei/restaurant.html">백세주마을</a></li>
+                            <li><a href="../05map/map.html">회사위치</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../06history/history.html">우리술</a>
+                        <ul class="sub">
+                            <li><a href="../06history/history.html">우리술 알기</a></li>
+                            <li><a href="../07restore/restore.html">우리술 복원사업</a></li>
+                            <li><a href="../09study/study.html">우리술 교육</a></li>
+                            <li><a href="../08feature/feature.html">국산당 술의 특징</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../10shop/shop.html">상품</a>
+                        <ul class="sub">
+                            <li><a href="../10shop/shop.html">자사제품</a></li>
+                            <li><a href="../10shop/shop.html">계열사제품</a></li>
+                            <li><a href="../10shop/shop.html">선물세트</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../11news/news.html">홍보자료</a>
+                        <ul class="sub">
+                            <li><a href="../11noti/noti.html">국순당소식</a></li>
+                            <li><a href="../12news/news.html">보도자료</a></li>
+                            <li><a href="../13cf/cf.html">CF</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../14advice/advice.html">고객센터</a>
+                        <ul class="sub">
+                            <li><a href="../15question/question.html">자주하는질문</a></li>
+                            <li><a href="../14advice/advice.html">고객의소리</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="top-login">
+                <ul>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="login.html">로그인</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="mainbanner">
+        <h2>고객센터</h2>
+    </div>
+
+    <div class="inner">
+        <div class="sub-title clear">
+            <h4>상담신청</h4>
+        </div>
+
+        <div class="bar"></div>
+
+
+        <form action="" method="post">
+            <fieldset class="userinfo">
+                <legend>이용자</legend>
+                <div class="user-name clear">
+                    <h3><span>*</span> 성명</h3>
+                    <input type="text" name="username" placeholder="이름을 입력하세요.">
+                </div>
+                <div class="user-tel clear">
+                    <h3><span>*</span> 연락처</h3>
+                    <input type="tel">
+                </div>
+                <div class="user-email clear">
+                    <h3><span>*</span> 이메일</h3>
+                    <input type="email" name=useremail>
+                    <!--<ul>
+                        <li>직접입력
+                            <ul class="select">
+                                <li>naver.com</li>
+                                <li>daum.net</li>
+                            </ul>
+                        </li>
+                    </ul>-->
+                </div>
+            </fieldset>
+
+            <div class="line"></div>
+
+            <fieldset class="advice clear">
+                <legend>상담내용</legend>
+                <div class="advicename clear">
+                    <h3><span>*</span> 상담제목</h3>
+                    <input type="text" name="advicesname">
+                </div>
+                <div class="advicecon clear">
+                    <h3><span>*</span> 상담내용</h3>
+                    <input type="textarea" name="content">
+                </div>
+                <div class="advicefile clear">
+                    <h3>파일첨부</h3>
+                    <div class="sumfile">
+                        <input type="file" name="file">
+                        <p>파일은 최대 5MB까지 업로드 하실 수 있습니다.</p>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div class="line"></div>
+
+            <fieldset class="personal">
+                <legend>이용동의</legend>
+                <div class="information clear clear">
+                    <h3><span>*</span> 이용동의</h3>
+                    <div class="info">
+                        <h4>개인정보수집동의 및 안내</h4>
+                        <div class="infotxt">
+                            <p>1. 개인정보 수집 항목
+
+                                회사는 고객문의 상담 및 해결을 위해 아래와 같은 개인정보를 수집하고 있습니다.<br>
+                                <br>
+                                - 수집 항목(필수) : 이름, 휴대폰 번호, 이메일<br>
+                                - 수집 항목(선택) : 주소, 고객 직접 입력 내용<br>
+                                - 서비스 이용 및 처리 과정에서 접속 IP정보, 접속 로그, 쿠키 생성/수집 가능
+                            </p>
+
+
+
+                            <p>2. 이용목적<br>
+                                <br>
+                                고객 문의 접수/처리 및 결과 안내
+                            </p>
+
+
+
+                            <p>3. 개인정보 보유 및 이용기간<br>
+                                <br>
+                                개인정보 수집 및 이용목적이 달성된 후에는 예외 없이 해당 정보를 지체 없이 파기합니다.<br>
+                                단, 다음의 정보에 대해서는 아래의 이유로 명시한 기간 동안 보존합니다.<br>
+                                <br>
+                                - 관련법령에 의한 정보보유 사유<br>
+                                <br>
+                                상법, 전자상거래 등에서의 소비자보호에 관한 법률 등 관계법령의 규정에 의하여 보존할 필요가 있는 경우<br> 회사는
+                                관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다.<br>
+                                이 경우 회사는 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 아래와 같습니다.
+                            </p>
+
+
+
+                            <p>■ 소비자의 불만 또는 분쟁처리에 관한 기록<br>
+                                <br>
+                                - 보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률<br>
+                                - 보존 기간 : 3년
+                            </p>
+                        </div>
+                        <div class="check clear">
+                            <input type="checkbox">
+                            <p>개인정보 수집 및 이용, 보유기간에 동의합니다.</p>
+                        </div>
+                        <p>개인정보 수집 및 이용에 대한 동의’를 거부하실 수 있으며,
+                            동의를 거부하실 경우에는 온라인 상담접수가 되지 않습니다</p>
+                    </div>
+                </div>
+            </fieldset>
+
+
+            
+            <button>제출하기</button>
+        </form>
+    </div>
+    <footer>
+        <div class="rule">
+            <div class="inner-wrap clear">
+                <ul class="clear">
+                    <li><a href="#">이용약관</a> </li>
+                    <li><a href="#"><span>개인정보이용약관</span></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="address clear">
+            <h1><a href="index.html"><img src="../logos.png" alt="국순당로고"></a></h1>
+            <div class="ftxt">
+                <p>(주)국순당 대표 : 배상민 사업자등록번호 : 124-81-14925 고객센터:080-0035-100</p>
+                <p>주소 : 강원도 횡성군 둔내면 강변로 975/강원도 횡성군 둔내면 현천리 81-3</p>
+                <p class="copy">COPYRIGHT&copy;2009by KOOKCOONDANG BREWERY CO.LTD</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body></html>

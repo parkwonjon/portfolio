@@ -1,0 +1,425 @@
+@charset "utf-8";
+
+h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section p {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.2;   
+    color: #333;
+}
+
+/***************/
+.mainbanner {
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    background: url(img/ban.jpg) no-repeat top center/ cover;
+    position: relative;
+}
+
+.mainbanner h2 {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 0 #666, 0 1px #666;
+    opacity: 0;    
+}
+
+main {
+    width: 100%;
+    height: 300px;
+    background: #000;
+    text-align: center;
+    padding: 80px 0;
+    box-sizing: border-box;
+    text-shadow: 1px 1px #666;
+    position: relative;
+}
+
+main img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+main h2 {
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+main p {
+    color: white;
+    line-height: 1.3;
+    font-weight: 100;
+    position: absolute;
+    left: 50%;
+    top: 130px;
+    transform: translateX(-50%);
+}
+
+/**************/
+.wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.wrap > div {
+    margin: 100px 0;
+}
+
+.bullet {
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 5%;
+    transition: 0.5s;
+    opacity: 0;
+}
+.bullet ul li{
+    width: 15px;
+    height: 15px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    margin: 10px;
+}
+.bullet ul li a{
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    display: block;
+}
+.bullet ul li.selb a{
+    background-color: #ff8527;
+    border-radius: 50%;
+}
+/*****************/
+.wrap .first {
+    width: 100%;
+    height: 500px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 50px;
+}
+
+.wrap .first h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrap .first .imgb {
+    height: 50%;
+    float: left;
+    position: relative;
+}
+
+.wrap .first .imgb .bgpoint {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    background-color: #efa54d;
+
+
+}
+
+.wrap .first .imgb img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.wrap .first .txtb {
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    position: relative;
+    top: 70px;
+}
+
+.wrap .first .txtb p {
+    margin-top: 20px;
+}
+
+/*******************************/
+
+.wrap .second {
+    width: 100%;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 100px;
+}
+
+.wrap .second .txtb {
+    width: 50%;
+}
+
+.wrap .second .imgb {
+    width: 50%;
+}
+
+.wrap .second .gogu .imgb {
+    float: left;
+}
+
+.wrap .second .gogu .imgb p {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 1.2;
+}
+
+.wrap .second .gogu .txtb {
+    float: right;
+}
+
+.wrap .second .gogu .txtb h3 {
+    margin: 100px 0 30px;
+}
+
+.wrap .second .gogu .txtb p {
+    margin-bottom: 30px;
+}
+
+.wrap .second .back {
+    margin-top: 50px;
+}
+
+.wrap .second .back .imgb {
+    float: right;
+}
+
+.wrap .second .back .imgb .right {
+    float: right;
+}
+
+.wrap .second .back .imgb p {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 1.2;
+}
+
+.wrap .second .back .txtb {
+    float: left;
+}
+
+.wrap .second .back .txtb h3 {
+    margin: 100px 0 30px;
+}
+
+.wrap .second .back .txtb p {
+    margin-bottom: 30px;
+}
+
+/**************/
+.wrap .third {
+    width: 100%;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 100px;
+}
+
+.wrap .third .history-top > .txtb {
+    float: left;
+    width: 50%;
+}
+
+.wrap .third .history-top > .txtb h3 {
+    margin-top: 80px;
+} 
+
+.wrap .third .history-top > .txtb p {
+    margin-top: 20px;
+}
+
+.wrap .third .imgb {
+    float: right;
+}
+
+.wrap .third .imgb img {
+    width: 100%;
+    display: block;
+}
+
+.wrap .third .imgb p {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.wrap .third .imgbg {
+    margin-top: 40px;
+}
+
+.wrap .third .imgbg ul li {
+    float: left;
+    width: 400px;
+}
+
+.wrap .third .imgbg ul li ~ li {
+    margin-left: 40px;
+}
+
+.wrap .third .imgbg ul li img {
+    width: 100%;
+    display: block;
+}
+
+.wrap .third .imgbg .txtb {
+    width: 100%;
+}
+
+.wrap .third .imgbg .txtb p:first-child {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.wrap .third .imgbg .txtb p:last-child {
+    margin-top: 20px;
+}
+
+/**************/
+.wrap .fourth {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 100px;
+}
+
+.wrap .fourth .txtb {
+    float: left;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wrap .fourth .txtb h3 {
+    margin-bottom: 40px;
+}
+
+.wrap .fourth .txtb p {
+    margin-top: 20px;
+}
+
+.wrap .fourth .txtb p span {
+    font-weight: 500;
+}
+
+.wrap .fourth .imgb {
+    float: right;
+    width: 50%;
+}
+
+.wrap .fourth .imgb .right {
+    float: right;
+}
+
+.wrap .fourth .imgb p {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+/**************/
+.wrap .fifth {
+    width: 100%;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.wrap .fifth .txtb {
+    float: left;
+    width: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.wrap .fifth .txtb p {
+    margin-top: 30px;
+    font-size: 1.1rem;
+}
+
+.wrap .fifth .imgb {
+    float: right;
+}
+
+.wrap .fifth .imgb li ~ li {
+    margin-top: 20px;
+}
+
+/**************/
+.wrap .sixth {
+    width: 100%;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.wrap .sixth .txtb {
+    width: 50%;
+    float: left;
+}
+
+.wrap .sixth .txtb p {
+    margin-top: 20px;
+}
+
+.wrap .sixth .video {
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.wrap .sixth .video iframe {
+    float: right;
+}
+
+/**************/
+.wrap .seventh {
+    width: 100%;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 100px;
+}
+
+.wrap .seventh .txtb {
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+}
+
+.wrap .seventh .txtb h3 {
+    margin-bottom: 40px;
+}
+
+.wrap .seventh .txtb p {
+    margin-top: 30px;
+}
+
+.wrap .seventh .imgb {
+    width: 50%;
+    float: right;
+}
+
+.wrap .seventh .imgb .right {
+    float: right;
+}

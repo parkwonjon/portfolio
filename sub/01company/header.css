@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+    color: #333;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+.more {
+    width: 250px;
+    overflow: hidden;
+    width: 220px;
+    display: block;
+    line-height: 50px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.more img {
+    float: right;
+}
+
+.more span {
+    width: 100px;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: -5%;
+    transition: all 0.6s;
+}
+
+.more:hover span {
+    left: 5%;
+
+}
+
+.more:hover:before span {
+    content: "";
+    display: block;
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.bbtn {
+    overflow: hidden;
+}
+
+.bbtn div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    ;
+    border-radius: 50px;
+    transition: all 0.6s;
+}
+
+.bbtn:hover {
+    border: 0;
+}
+
+.bbtn:hover div {
+    left: 0;
+}
+
+/****************************/
+header {
+    width: 100%;
+    height: 100px;
+}
+
+.top {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+}
+
+.top h1 {
+    float: left;
+    width: 150px;
+    height: 100%;
+    margin-top: 13px;
+}
+
+.top nav {
+    float: left;
+    margin-left: 100px;
+}
+
+.top nav > ul > li {
+    float: left;
+    width: 150px;
+    line-height: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.top nav > ul > li a {
+    transition: all 0.5s;
+}
+
+.top nav > ul > li:hover > a {
+    padding-bottom: 15px;
+    border-bottom: 2px solid orange;
+}
+
+.top .sub {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    display: none;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.top .sub li {
+    width: 100%;
+    line-height: 60px;
+}
+
+.top .sub li a {
+    display: block;
+}
+
+.top .sub li:hover a {
+    width: 100%;
+    color: #efa54d;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.login {
+    float: right;
+}
+
+.login li {
+    float: left;
+    margin-left: 20px;
+    line-height: 100px;
+}

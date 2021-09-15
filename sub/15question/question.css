@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+ul:after,
+li:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
+}
+
+.mainbanner {
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    background: url(img/ban.jpg) no-repeat top center/ cover;
+    position: relative;
+}
+
+.mainbanner h2 {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 0 #666, 0 1px #666;
+    opacity: 0;
+}
+
+
+
+form p {
+    float: left;
+    color: #333;
+    margin-right: 20px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+form input {
+    float: left;
+}
+
+form .txt {
+    height: 38px;
+    border: 1px solid #ccc;
+    border-right: 0;
+}
+
+form .move {
+    font-size: 0;
+    width: 39px;
+    height: 40px;
+    background: url(img/seach.png) no-repeat center;
+    border: 1px solid #ccc;
+    border-left: 0;
+    cursor: pointer;
+}
+
+.inner {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.sub-title {
+    margin-top: 100px;
+}
+
+.sub-title h4 {
+    float: left;
+    font-size: 24px;
+    color: #333;
+    margin-left: 20px;
+}
+
+.sub-title .search {
+    float: right;
+}
+
+.bar {
+    width: 100%;
+    height: 2px;
+    background-color: orange;
+    margin: 50px 0 0;
+}
+
+.ques-list {
+    border-bottom: 1px solid #eee;
+}
+
+.ques-list li {
+    width: 16.66666666666667%;
+    height: 70px;
+    line-height: 70px;
+    float: left;
+    text-align: center;
+}
+.ques-list li.sel {
+    background-color: orange;  
+}
+.ques-list li.sel a{
+      color: #fff;
+}
+.ques-list li a {
+    display: block;
+}
+.ques-list li:hover a {
+    background-color: orange;
+    color: #fff;
+}
+
+.qna {
+    border-top: 2px solid #666;
+    border-bottom: 2px solid #666;
+    margin-top: 40px;
+}
+
+.qna li {
+    text-align: center;
+    line-height: 80px;
+}
+
+.qna li ~ li {
+    border-top: 1px solid #ccc;
+}
+.qna li > p {
+    display: inline-block;    
+}
+
+.qna li > p.title {
+    width: 300px;
+}
+.qna li > p.txt {
+    width: 872px;
+    text-align: left;
+}
+
+.qna li > a {
+    width: 100px;
+    display: inline-block;
+}
+.qna li > a img{
+    width: 20%;
+    transition: 0.5s;
+    
+}
+
+
+.answerbox {
+    width: 100%;
+    background-color: #eee;
+    display: none;    
+    border-top: 1px solid #ccc;
+    padding: 40px 0;
+}
+
+.disb {
+    display: block;
+}
+
+.answerbox > div:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.answerbox .answer h4 {
+    width: 300px;
+    color: red;
+    float: left;
+}
+
+.answerbox .answer p {
+    width: 900px;
+    float: left;
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+
+
+.pager {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.pager li {
+    position: relative;    
+    display: inline-block;
+}
+
+.pager li a {
+    margin: 0 2.5px;
+    display: block;
+}
+
+.pager-list a {
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding-top: 13px;
+    box-sizing: border-box;
+    color: #333;    
+    float: left;
+}
+
+.pager-list .selp {
+    background-color: orange;
+    color: #fff;
+}
+
+.abtn {
+    font-size: 0;
+    padding: 8px 16px;
+    border-radius: 50%;
+}
+
+.btnL {
+    width: 17px;
+    height: 30px;
+    background: url(img/left-btn.png) no-repeat 45% center;
+    float: left;
+}
+
+.btnR {
+    width: 17px;
+    height: 30px;
+    background: url(img/right-btn.png) no-repeat 55% center;
+    float: right;
+}
+
+footer{
+    margin-top: 100px;
+}

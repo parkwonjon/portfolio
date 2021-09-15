@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    list-style: none;
+}
+ul:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
+}
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ /******************/
+.mainbanner {
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    background: url(img/ban.jpg) no-repeat top center/ cover;
+    position: relative;
+}
+
+.mainbanner h2 {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 0 #666, 0 1px #666;
+    opacity: 0;    
+}
+
+.shop-wrap {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.menu-list {
+    text-align: center;
+    margin: 0 auto;    
+    margin-top: 150px;
+    text-align: center;
+}
+
+.menu-list li {
+    display: inline-block;
+    width: 10%;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #eee;
+    border-radius: 30px;    
+    position: relative;
+    box-sizing: border-box;
+}
+.menu-list li.sel a{
+    width: 100%;
+    height: 100%;
+    color: #fff;   
+    background-color: #FF8B00;
+    border-radius: 30px;
+}
+.menu-list li a{
+    display: block;
+    border-radius: 30px;
+    z-index: 66;
+    position: relative;
+    transition: 0.5s;
+}
+.menu-list li:hover a{
+    color: #fff;
+    
+}
+.menu-list li  span{
+    width: 100%;
+    height: 100%;    
+    background-color: #FF8B00;
+    transform: scale(0);
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s;
+    z-index: 1;
+}
+.menu-list li:hover  span {
+    width: 100%;
+    height: 100%;    
+    transform: scale(1);
+}
+.shop-list {
+    margin-top: 80px;
+}
+.shop-list>ul>li {
+    width: 296.6666666666667px;
+    height: 296.6666666666667px;
+    float: left;
+    margin: 0 11px 60px;
+    text-align: center;
+    position: relative;
+    border: 1px solid #eee;
+    box-sizing: border-box;    
+    display: none;
+}
+.shop-list li a{
+    transition:all 0.5s;
+    display: block;
+}
+.shop-list li:hover{
+    border-radius: 60px;
+}
+.shop-list li:hover a{
+    border-radius: 60px;
+}
+.shop-list li:hover .inner-line{
+    border-radius: 60px;
+}
+.shop-list li>p{
+    color: #666;
+    margin-top: 10px;
+}
+.shop-list li a>img {    
+    height: 291.6666666666667px;    
+}
+
+.shop-list li .bg{ 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition:all 0.5s;
+}
+.shop-list li .bg p{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+.shop-list li a:hover .bg {
+    opacity: 1;
+    border-radius: 60px;
+}
+.shop-list li .inner-line{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;    
+   transition:all 0.5s;
+}
+.shop-list li .inner-line img{
+    margin-top: 50px;
+}
+
+.load-more {
+    border: 1px solid #FF8B00;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: #FF8B00;
+}
+.load-more:hover{
+    background-color: #FF8B00;
+    color: #fff;
+    font-weight: 500;
+}
+footer{
+    margin-top: 100px;
+}
+

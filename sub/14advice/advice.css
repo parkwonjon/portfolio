@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
+}
+
+.mainbanner {
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    background: url(img/ban.jpg) no-repeat top center/ cover;
+    position: relative;
+}
+
+.mainbanner h2 {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 0 #666, 0 1px #666;
+    opacity: 0;    
+}
+
+
+
+
+
+fieldset {
+    border: 0;
+}
+
+legend {
+    font-size: 0;
+}
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    margin: 40px;
+    background-color: #eee;
+}
+/*************************/
+
+
+.bar {
+    width: 100%;
+    height: 2px;
+    background-color: orange;
+    margin: 50px 0 30px;
+    ;
+}
+
+.inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.sub-title {
+    margin-top: 100px;
+}
+
+.sub-title h4 {
+    float: left;
+    font-size: 24px;
+    color: #333;
+    margin-left: 20px;
+    
+}
+
+
+
+/****************/
+
+fieldset>div {
+    margin: 30px;
+}
+
+fieldset div h3 {
+    float: left;
+    width: 15%;
+    font-size: 18px;
+    margin-top: 14px;
+}
+fieldset div h3 span {
+    color: red;
+}
+
+.userinfo div input {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 10px;
+    border: 1px solid #ccc;
+}
+.userinfo div.user-name input{
+    width: 30%;
+}
+.user-tel input{
+    width: 30%;
+}
+.user-email input{
+    width: 30%;
+}
+.advice>div {
+    margin: 30px;
+}
+.advice input{
+    width: 80%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 10px;
+    border: 1px solid #ccc;
+}
+.advicecon input{
+    height: 300px;
+}
+.advicefile .sumfile {
+    float: left;
+}
+.advicefile .sumfile input {
+    float: none;
+}
+.advicefile .sumfile p {
+    margin-top: 10px;
+    color: #666;
+}
+
+
+
+.personal .infotxt{
+    border: 1px solid #eee;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.personal .info {
+    float: left;
+    margin-left: 30px;
+    width: 80%;
+}
+.personal .info h4 {
+    font-size: 28px;
+}
+.personal .infotxt {
+    margin-top: 30px;
+}
+.personal .infotxt p~p{
+    margin-top: 30px;
+}
+
+
+.check {
+    margin-top: 20px;
+}
+.check input{
+    float: left;
+    margin-top: 6px;
+}
+.check p{
+    float: left;
+    margin-left: 10px;
+}
+.info>p{
+    margin-top: 15px;
+}
+
+
+button {
+    border: 1px solid #333;
+    padding: 20px 50px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+    background-color: #fff;
+}
+button:hover {
+    background-color: #eee;
+}
+footer{
+    margin-top: 100px;
+}

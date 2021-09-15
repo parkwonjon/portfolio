@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
+}
+
+/************/
+.mainbanner {
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    background: url(img/ban.jpg) no-repeat top center/ cover;
+    position: relative;
+}
+
+.mainbanner h2 {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 0 #666, 0 1px #666;
+    opacity: 0;
+}
+
+.restore-top {
+    background: url(img/bg.jpg) no-repeat top center/cover;
+}
+
+.inner {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.inner .txtbox {
+    margin-left: 200px;
+}
+
+.inner h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.inner h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.inner p {
+    margin-bottom: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+
+/******************/
+.list-wrap {
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.list {
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #666;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.list a {
+    color: #333;
+}
+
+.list a:hover {
+    text-decoration: underline;
+}
+
+.list:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.list li {
+    box-sizing: border-box;
+}
+
+.list li h4 {
+    line-height: 60px;
+    background-color: orange;
+}
+
+.list li h4.date {
+    border-radius: 30px 0 0 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+.list li h4.title {
+    border-radius: 0 30px 0 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+.list li h4 {
+    width: 200px;
+}
+
+.list li p {
+    line-height: 60px;
+}
+
+.list li p {
+    border-top: 1px solid #eee;
+}
+
+.list li .date {
+    width: 20%;
+    border-right: 1px solid #eee;
+    float: left;
+}
+
+.list li .title {
+    width: 79%;
+    float: left;
+}
+
+.menu {
+    display: none;
+}
+
+.menu.show {
+    display: block;
+}
+
+
+.pager {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.pager li {
+    position: relative;    
+    display: inline-block;
+}
+
+.pager li a {
+    margin: 0 2.5px;
+    display: block;
+}
+
+.pager-list a {
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #333;    
+    float: left;
+}
+
+.pager-list .selp {
+    background-color: orange;
+    color: #fff;
+}
+
+.abtn {
+    font-size: 0;
+    padding: 10px 16px;
+    border-radius: 50%;    
+    vertical-align: top;
+}
+
+.btnL {
+    width: 17px;
+    height: 30px;
+    background: url(img/left-btn.png) no-repeat 45% center;
+    float: left;
+}
+
+.btnR {
+    width: 17px;
+    height: 30px;
+    background: url(img/right-btn.png) no-repeat 55% center;
+    float: right;
+}
+
+
+.show-wrap {
+    width: 100%;
+    background: url(img/infobg.jpg) no-repeat top center/cover;
+    padding: 100px 0;
+}
+
+.showbox {
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+.showbox h3 {
+    font-size: 32px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    color: #fff;
+}
+
+.showbox .imgb {
+    float: left;
+    width: 500px;
+    height: 700px;
+}
+
+.showbox .imgb img {
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+.showbox .info-txt {
+    width: 760px;
+    height: 700px;
+    float: right;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+
+.showbox .info-txt p {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+.showbox .info-txt .bold {
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+.type1 {
+    display: none;
+}

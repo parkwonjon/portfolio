@@ -1,0 +1,283 @@
+@charset "utf-8";
+
+h2 {
+    color: #333;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    word-break: keep-all;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/****************************/
+.mainbanner {
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    background: url(img/ban.png) no-repeat top center/ cover;
+    position: relative;
+}
+
+.mainbanner h2 {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 0 #666, 0 1px #666;
+    opacity: 0;
+}
+.wrap {
+    width: 1280px;
+    margin: 100px auto;
+}
+.wrap  p{
+    line-height: 1.3;
+    color: #333;
+}
+.wrap > div {
+    padding: 80px 0;
+    border-bottom: 2px solid #eee;
+}
+.rice-txt {
+    margin-top: 80px;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+
+.rice-txt h3 {
+    margin-bottom: 50px;
+    font-size: 32px;
+    color: #FF8B00;
+}
+
+.rice-txt h3 span {
+    font-weight: 500;
+    font-size: 28px;
+    color: #333;
+}
+
+.rice-txt p {
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.rice-txt p span {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #FF8B00;
+}
+
+
+.rice h2 {
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.rice .info .imgb {
+    width: 46%;
+    float: left;
+}
+
+.rice .info .imgb img {
+    width: 100%;
+    display: block;
+}
+
+.rice .info table {
+    width: 50%;
+    height: 450px;
+    float: right;
+    box-shadow: 2px 2px 2px #eee;
+}
+
+.rice .info table tr {
+    color: #333;
+}
+
+.rice .info table tr th {
+    line-height: 40px;
+    width: 30%;    
+    background-color: #efa54d;
+    color: #fff;
+    font-weight: 400;
+}
+.rice .info table tr:first-child th {
+    border-radius: 30px 0 0 0;
+}
+.rice .info table tr:last-child th {
+    border-radius:  0 0 0 30px;
+}
+.rice .info table tr td {
+    width: 70%;
+    line-height: 70px;
+    padding-left: 15px;    
+    font-weight: 300;
+    background-color: #ffebcc;
+}
+
+.rice .info table tr:nth-child(4) th {
+    vertical-align: middle;
+}
+
+.rice .info table tr:nth-child(3) td {
+    line-height: 1.3;
+    padding: 10px;
+}
+
+.rice .info table tr:nth-child(4) td {
+    padding: 10px;
+    line-height: 1.3;
+}
+
+
+
+/*******************/
+
+.graph1 .txt {
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+
+.graph1 h3 {
+    margin-bottom: 50px;
+    color: #FF8B00;
+}
+
+.graph1 h3 span {
+    font-weight: 500;
+    font-size: 28px;
+    color: #333;
+}
+
+.graph1 p {
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.graph1 p span {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.graph1 .imgb {
+    margin-top: 50px;
+}
+
+.graph1 .imgb img {
+    width: 100%;
+}
+
+/*******************/
+
+.graph2 h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.graph2 h3 span {
+    color: #FF8B00;
+}
+.graph2 .imgb {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/**********************/
+.tech .ricetech {
+    padding: 0 80px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.tech .ricetech h3 {
+    margin-bottom: 40px;
+}
+
+.tech .ricetech h3 span {
+    font-weight: 400;
+    font-size: 20px;
+    color: #888;
+}
+
+.tech .ricetech p {
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.tech .ricetech .banner {
+    width: 100%;
+    display: block;
+    margin-top: 40px;
+}
+
+.tech .imgb img {
+    width: 100%;
+    display: block;
+}
+
+.tech .icon {
+    margin-top: 80px;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+
+.tech .icon h3 {
+    margin-bottom: 40px;
+}
+
+.tech .icon h3 span {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.tech .icon > p {
+    margin-bottom: 40px;
+}
+
+.tech .icon ul li {
+    float: left;
+    text-align: center;
+}
+
+.tech .icon ul li ~ li {
+    margin-left: 64px;
+}
+
+.tech .icon ul li p {
+    margin-top: 30px;
+}
+
+/***************/
+.con p {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+
+.con p span {
+    font-size: 1rem;
+    color: #999;
+    font-weight: 100;
+}
+
+.con .imgb {
+    text-align: center;
+}
